@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Web App</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <header id="header"></header>
+
+            <!-- Centered hero/banner (not full-bleed) -->
+            <section class="hero-centered mb-4">
+                <div class="container">
+                            <div id="heroCarousel" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                </div>
+
+                            <div class="carousel-item">
+                                <img src="https://i.postimg.cc/bYt42QC4/image.png" class="d-block w-100 hero-img" alt="banner2" loading="lazy" decoding="async">
+                                <div class="carousel-caption d-none d-md-block text-start">
+                                    <a href="products.html" class="btn btn-outline-light btn-lg">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        <main id="main-content" class="container">
+                <section class="catalog">
+            <div class="catalog-header">
+                <h2>Sản phẩm nổi bật</h2>
+                <div class="catalog-controls">
+                    <select id="sort-select" aria-label="Sắp xếp">
+                        <option value="featured">Nổi bật</option>
+                        <option value="price-asc">Giá: thấp → cao</option>
+                        <option value="price-desc">Giá: cao → thấp</option>
+                    </select>
+                    <input id="quick-search" placeholder="Tìm nhanh..." />
+                </div>
+            </div>
+            <div id="product-list" class="product-grid" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <aside id="cart-drawer" class="cart-drawer" aria-hidden="true"></aside>
+
+        <footer id="footer" class="site-footer bg-light mt-5">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>E-Shop</h5>
+                        <p class="text-muted">Cửa hàng công nghệ uy tín. Giao hàng nhanh — Bảo hành chính hãng.</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>Khám phá</h6>
+                        <ul class="list-unstyled small">
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Hỗ trợ</h6>
+                        <ul class="list-unstyled small">
+                            <li><a href="#">Chính sách đổi trả</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Đăng ký</h6>
+                        <p class="small text-muted">Nhận khuyến mãi qua email</p>
+                        <div class="d-flex">
+                            <input class="form-control form-control-sm me-2" placeholder="Email của bạn">
+                            <button class="btn btn-sm btn-primary">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top mt-3 pt-3 d-flex justify-content-between small text-muted">
+                    <div>© <span id="year"></span> E-Shop</div>
+                    <div>Follow: <a href="#" class="ms-2"><i class="fa-brands fa-facebook-f"></i></a> <a href="#" class="ms-2"><i class="fa-brands fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Bootstrap bundle (Popper + JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
+    <script type="module" src="js/pages/homePage.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Tai nghe không dây X100",
+        "price": 1290000,
+        "description": "Tai nghe Bluetooth X100 - chống ồn chủ động, pin 30 giờ, âm thanh Hi-Fi.",
+        "image": "https://i.postimg.cc/7L90RTQ9/image.png",
+        "category": "Audio",
+        "rating": 4.6,
+        "sold": 120
+    },
+    {
+        "id": 2,
+        "title": "Đồng hồ thông minh S2",
+        "price": 2190000,
+        "description": "Đồng hồ S2 theo dõi sức khỏe, đo SpO2, pin 7 ngày.",
+        "image": "https://i.postimg.cc/qRghZDKv/image.png",
+        "category": "Wearables",
+        "rating": 4.8,
+        "sold": 300
+    },
+    {
+        "id": 3,
+        "title": "Loa Bluetooth Atlas",
+        "price": 390000,
+        "description": "Loa di động Atlas, chống nước IPX6, bass mạnh mẽ.",
+        "image": "https://i.postimg.cc/Y9jbkwVb/image.png",
+        "category": "Audio",
+        "rating": 4.4,
+        "sold": 88
+    },
+    {
+        "id": 4,
+        "title": "Sạc dự phòng 20.000mAh",
+        "price": 450000,
+        "description": "Sạc nhanh PD 20W, hai cổng USB-C/USB-A, vỏ kim loại.",
+        "image": "https://i.postimg.cc/kM0frzc3/image.png",
+        "category": "Accessories",
+        "rating": 4.5,
+        "sold": 210
+    },
+    {
+        "id": 5,
+        "title": "Laptop chơi game Raptor 15",
+        "price": 29990000,
+        "description": "Raptor 15 - i7, RTX 4060, 16GB RAM, 512GB SSD. Thiết kế mỏng, tản nhiệt tốt.",
+        "image": "https://i.postimg.cc/LXrBpgjP/image.png",
+        "category": "Computers",
+        "rating": 4.7,
+        "sold": 65
+    },
+    {
+        "id": 6,
+        "title": "Chuột không dây ProClick",
+        "price": 390000,
+        "description": "Chuột ProClick cảm biến quang học 16.000 DPI, pin 1 năm.",
+        "image": "https://i.postimg.cc/dVqRwYZT/image.png",
+        "category": "Peripherals",
+        "rating": 4.3,
+        "sold": 340
+    },
+    {
+        "id": 7,
+        "title": "Bàn phím cơ Nova RGB",
+        "price": 1590000,
+        "description": "Switch Red, LED RGB, layout US, keycaps PBT.",
+        "image": "https://i.postimg.cc/Znt3gthF/image.png",
+        "category": "Peripherals",
+        "rating": 4.5,
+        "sold": 142
+    },
+        {
+            "id": 8,
+            "title": "Màn hình 27 4K Ultra",
+        "price": 7490000,
+        "description": "Màn hình 27 inch 4K, tấm nền IPS, độ phủ màu sRGB 99%.",
+        "image": "https://i.postimg.cc/bwNn494x/image.png",
+        "category": "Displays",
+        "rating": 4.6,
+        "sold": 48
+    },
+    {
+        "id": 9,
+        "title": "Camera hành trình DashCam 4K",
+        "price": 2490000,
+        "description": "Ghi hình 4K, góc rộng 150°, hỗ trợ thẻ nhớ 256GB.",
+        "image": "https://i.postimg.cc/jjBJw029/image.png",
+        "category": "Cameras",
+        "rating": 4.2,
+        "sold": 77
+    },
+    {
+        "id": 10,
+        "title": "Tai nghe gaming Hades",
+        "price": 1290000,
+        "description": "Tai nghe chuyên game, mic chống ồn, surround 7.1.",
+        "image": "https://i.postimg.cc/BZT16z0r/image.png",
+        "category": "Audio",
+        "rating": 4.4,
+        "sold": 198
+    }
+]
